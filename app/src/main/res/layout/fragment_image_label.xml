@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="OPen gallery"
+        android:textColor="@color/white"
+        android:id="@+id/open_gallery_image_label_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_toRightOf="@id/open_gallery_image_label_btn"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="OPen CAMERA"
+        android:textColor="@color/white"
+        android:id="@+id/open_camera_image_label_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/open_gallery_image_label_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/image_label_imageView"
+        android:scaleType="fitXY"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/image_label_imageView"
+        android:layout_marginTop="5dp"
+        android:id="@+id/labels_listView"></ListView>
+
+</RelativeLayout>

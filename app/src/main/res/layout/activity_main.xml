@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/smart_reply_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Smart Reply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/image_labeling_button"
+        android:layout_below="@id/smart_reply_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Image Labeling"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/text_recognizer_button"
+        android:layout_below="@id/image_labeling_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Text Recognizer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/language_iden_button"
+        android:layout_below="@id/text_recognizer_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Language identifier"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/language_translation_button"
+        android:layout_below="@id/language_iden_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:text="Language Translation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+
+
+
+</RelativeLayout>

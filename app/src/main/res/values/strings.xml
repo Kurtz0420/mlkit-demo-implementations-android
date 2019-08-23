@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">ML Kit</string>
+    <string name="send_message_button_text">Send</string>
+    <string name="empty_input_message">Enter some input text first.</string>
+    <string name="title_switch_user">Switch emulated user</string>
+    <string name="hint_input_text">Enter message text</string>
+    <string name="title_generate_sensitive_history">Generate history with sensitive content</string>
+    <string name="title_generate_basic_history">Generate basic history</string>
+    <string name="switch_user_button">SWITCH</string>
+    <string name="title_clear_history">Clear chat history</string>
+    <string name="chatting_as_red">Chatting as Red User</string>
+    <string name="chatting_as_blue">Chatting as Blue User</string>
+
+    <string-array name="languages">
+
+        <item>AF-Afrikans</item>
+        <item>AR-Arabic</item>
+        <item>BE-Belarusian</item>
+        <item>BG-Bulgarian</item>
+        <item>BN-Bengali</item>
+        <item>CA-Catalan</item>
+        <item>CS-Indo-European</item>
+        <item>CY-Welsh</item>
+        <item>DA-Danish</item>
+        <item>DE-German</item>
+        <item>EL-Greek</item>
+        <item>EO-Estonian</item>
+        <item>ES-Spanish</item>
+        <item>ET-Afar</item>
+        <item>FA-Farsi</item>
+        <item>FI-Finnish</item>
+        <item>FR-French</item>
+        <item>GA-Irish</item>
+        <item>GL-Galego</item>
+        <item>GU-Gujrati</item>
+        <item>HE-Afro-Asiatic</item>
+        <item>HI-Hindi</item>
+        <item>HR-Croatian</item>
+        <item>HT-Hiatian-creole</item>
+        <item>HU-Hungarian</item>
+        <item>ID-Indonesian</item>
+        <item>JA-Japanese</item>
+        <item>KA-Kartvelian</item>
+        <item>KN-North-Korean</item>
+        <item>KO-Korean</item>
+        <item>LT-Lituanian</item>
+        <item>LV-Latvian</item>
+        <item>MK-Macedonian</item>
+        <item>MR-Marathi</item>
+        <item>MS-Malay</item>
+        <item>MT-Maltese</item>
+        <item>NL-Dutch</item>
+        <item>NO-Norwegian</item>
+        <item>PL-Polish</item>
+        <item>PT-Portuguese</item>
+        <item>RO-Romanian</item>
+        <item>RU-Russian</item>
+        <item>SK-Slovak</item>
+        <item>SL-Slovenian</item>
+        <item>SQ-Albanian</item>
+        <item>SV-Swedish</item>
+        <item>SW-Swahili</item>
+        <item>TA-Tamil</item>
+        <item>TE-Telugu</item>
+        <item>TH-Thai</item>
+        <item>TL-Tagalog</item>
+        <item>TR-Turkish</item>
+        <item>UK-English(uk)</item>
+        <item>UR-Urdu</item>
+        <item>VI-Vietnamese</item>
+        <item>ZH-Chinese</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
